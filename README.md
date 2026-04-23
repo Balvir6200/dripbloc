@@ -1,73 +1,77 @@
-# DripBloc
+# 🚀 DripBloc
 
-> Premium multi-category printing SaaS built with Laravel + React.
+> Premium multi-category printing SaaS built with Laravel + React
 
-DripBloc is a modern category-driven printing platform designed for businesses that want a premium online ordering experience for custom print products.  
-Instead of treating every item as a simple product listing, DripBloc is built around **categories as configurable systems**, allowing each category to have its own sizes, design specifications, templates, and purchase flow.
+DripBloc is a modern **category-driven printing platform** designed for businesses that want a premium online ordering experience for custom print products.
 
----
-
-## Overview
-
-DripBloc is not a basic product catalog.
-
-It is a **scalable printing SaaS architecture** where:
-
-- **Categories** act as the main entry layer
-- **Subcategories** organize product structure
-- **Products** represent purchasable printing items
-- **Category Sizes** support both standard and custom dimension-based sizing
-- **Design Specs** define production requirements and downloadable guidelines
-
-This makes the platform flexible for multiple print industries such as:
-
-- Apparel printing
-- Marketing materials
-- Packaging
-- Large format print
-- Business stationery
-- Promotional products
+Instead of treating products as simple listings, DripBloc builds **configurable category systems** — where each category has its own sizes, design specs, templates, and purchase flow.
 
 ---
 
-## Key Features
+## ✨ Product Preview
 
-- Premium modern storefront UI
-- Category-first architecture
+### 🏠 Homepage
+![Homepage](./screenshots/homepage.png)
+
+### 🧩 Category Experience
+![Category Page](./screenshots/category-page.png)
+
+### 📊 Admin Dashboard
+![Admin Dashboard](./screenshots/admin-dashboard.png)
+
+### ⚙️ Product Configuration Flow
+![Product Flow](./screenshots/product-flow.png)
+
+---
+
+## 🧠 Overview
+
+DripBloc is not a basic e-commerce store.
+
+It is a **scalable SaaS architecture** where:
+
+- Categories = Entry layer
+- Subcategories = Structure
+- Products = Execution layer
+- Sizes = Flexible configuration
+- Design Specs = Production rules
+
+---
+
+## 🔥 Key Features
+
+- Premium modern UI (SaaS style)
+- Category-first architecture (not product-first)
 - Dynamic category pages
-- Flexible size system
-- Standard sizes and dimension-based sizes
-- Product configuration flow
-- Design specification management
-- Template / design guide download support
+- Flexible size system (standard + dimension-based)
+- Design specification system
+- Template / artwork guide support
 - Laravel MVC backend
-- React-powered interactive frontend
-- Admin panel for managing categories, products, sizes, and specs
+- React-powered frontend
+- Admin panel for full control
 
 ---
 
-## Why This Project Stands Out
+## 💎 Why This Project Stands Out
 
-Most printing platforms are built like standard e-commerce stores.
+Most printing platforms are basic catalogs.
 
-DripBloc is different because it focuses on **structured printing workflows** instead of just product cards.
+DripBloc is different because it focuses on:
 
-This allows:
-
-- easier scaling across multiple print categories
-- cleaner product configuration
-- better handling of technical print requirements
-- stronger long-term SaaS potential
+- structured printing workflows
+- scalable category systems
+- real-world printing logic
+- SaaS-ready architecture
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
 **Backend**
 - Laravel
 - PHP
 - MVC Architecture
-- RESTful APIs
+- REST APIs
 
 **Frontend**
 - React JS
@@ -77,33 +81,29 @@ This allows:
 - Lucide Icons
 
 **Database**
-- MySQL / SQLite (local development)
+- MySQL / SQLite
 
 ---
 
-## Core Modules
+## 🧩 Core Modules
 
 ### Customer Side
-- Homepage with premium category-focused layout
-- Category listing
-- Dynamic category page
+- Homepage (category-first UI)
+- Category pages
 - Product detail page
 - Size selection flow
-- Design upload / design guidance flow
+- Design upload / guidance
 
 ### Admin Side
 - Category management
 - Subcategory management
 - Product management
-- Category size management
-- Design specs management
-- Product structure control
+- Category size system
+- Design specs system
 
 ---
 
-## Architecture Approach
-
-DripBloc follows a **category-driven architecture**:
+## 🏗 Architecture
 
 ```text
 Category
