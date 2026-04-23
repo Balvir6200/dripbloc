@@ -1,0 +1,13 @@
+/node_modules
+/vendor
+.env
+.env.*
+/public/build
+/public/hot
+/storage/*.key
+/storage/logs
+/storage/framework
+bootstrap/cache
+npm-debug.log
+yarn-error.log
+.DS_Store

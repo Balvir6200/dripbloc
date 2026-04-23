@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌈 DripBloc Theme */
+
+:root {
+    --primary: #F68B30;
+    --secondary: #E9E4AD;
+    --accent: #617D2B;
+}
+
+/* Global */
+body {
+    background-color: var(--secondary);
+    font-family: 'Inter', sans-serif;
+    color: #1f2937;
+}
+
+/* Buttons */
+.btn-primary {
+    background: var(--primary);
+    color: white;
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.btn-primary:hover {
+    background: #e5771d;
+}
+
+.btn-accent {
+    background: var(--accent);
+    color: white;
+    padding: 12px 22px;
+    border-radius: 10px;
+}
+
+/* Cards */
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* Section spacing */
+.section {
+    padding: 80px 20px;
+}
